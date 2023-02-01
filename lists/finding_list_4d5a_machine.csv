@@ -1,4 +1,5 @@
 ID,Category,Name,Method,MethodArgument,RegistryPath,RegistryItem,ClassName,Namespace,Property,DefaultValue,RecommendedValue,Operator,Severity
+1307,"Security Options","Microsoft network server: Digitally sign communications (always)",Registry,,HKLM:\System\CurrentControlSet\Services\LanManServer\Parameters,RequireSecuritySignature,,,,0,1,=,Medium
 2105,PowerShell,"Turn on PowerShell Module Logging",Registry,,HKLM:\Software\Policies\Microsoft\Windows\PowerShell\ModuleLogging,EnableModuleLogging,,,,0,1,=,Low
 2106,PowerShell,"Turn on PowerShell Module Logging",Registry,,HKLM:\Software\Policies\Microsoft\Windows\PowerShell\ModuleLogging\ModuleNames,*,,,,,*,=,Low
 2107,PowerShell,"Turn on PowerShell Transcription (Invocation Header)",Registry,,HKLM:\SOFTWARE\Policies\Microsoft\Windows\PowerShell\Transcription,EnableInvocationHeader,,,,0,1,=,Low
